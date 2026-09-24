@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+min-height: 100vh;
+background:  linear-gradient( 135deg,#f9fafc35 0%, #b7aae4 50%,#a7e5fa);
+background-color: whitesmoke;
+display: flex;
+justify-content:center ;
+align-items: center;
+color: #202020;
+}
+
+.Create-accountcontainer{
+width: 100%;
+max-width:430px ;
+padding: 30px 20px;
+}
+
+.logo{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.logo-icon{
+       width: 55px;
+    height: 55px;
+    background: #6246e5;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolds;
+    font-style: italic;
+    font-family:cursive;
+}
+
+.create-accountbox{
+     background:rgb(255, 255, 255);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.08);
+    border: 10px  #202020;
+    width: 450px;
+}
+
+
+.logo h2{
+font-size: 24px;
+}
+ .logo p{
+    color: #777;
+    font-size: 17px;
+ }
+
+
+
+ .create-accountbox h1{
+    text-align: center;
+    color:#202020;
+    margin-bottom: 8px;
+ }
+
+ 
+ .subtitle{
+    text-align: center;
+    color: #777;
+    margin-bottom: 28px;
+ }
+
+
+ input[type="email"],input[type="password"], input[type="Text"] {
+padding: 13px;
+border: 2px solid #ddd;
+border-radius: 10px;
+margin-bottom: 18px;
+font-size: 14px;
+outline: none;
+
+ }
+
+ 
+ input[type="email"] :focus,input[type="password"]:focus,input[type="Text"]:focus{
+    border-color: #6246e5;
+ }
+
+
+
+
+ form{
+    display: flex;
+    flex-direction: column;
+ }
+
+ label{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+ }
+
+ button{
+    border: none;
+    background: #6246e5;
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
+
+ button:hover{
+    background: #5035cc;
+ }
+
+ .Signup{
+    text-align: center;
+    margin-top: 25px;
+    color: #777;
+    font-size: 14px;
+ }
+.Signup a{
+    color: #6246e5;
+    text-decoration:none;
+    font-weight:bolder;
+}
+
+
+
