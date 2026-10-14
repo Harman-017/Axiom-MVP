@@ -1,0 +1,16 @@
+Python generated files
+pycache/*.py[cod]
+
+Virtual environment
+.venv/venv/
+
+Environment variables and secrets
+.env.env*
+
+Local SQLite databases
+*.db
+*.lite
+*.sqlite3
+
+Editor settings (optional)
+.vscode/

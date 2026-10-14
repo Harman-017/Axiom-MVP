@@ -48,6 +48,7 @@ try :
     print("\n Account Created Successfully! ")
 except sqlite3.IntegrityError:
     print ("\n Already existing username! ")
+    
 
 # -------- login-------
 print("\n ===== AXIOM LOGIN =====")
